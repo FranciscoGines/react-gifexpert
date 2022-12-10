@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <Gifitem /> debe de hacer march con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      alt="Gines"
+      src="https://one-punch.com/gines.jpg"
+    />
+    <p>
+      Gines
+    </p>
+  </div>
+</div>
+`;
