@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getGifs } from '../helpers/getGifs';
-
+//entrada
 export const useFetchGifs = ( category ) => {
 
     const [images, setImages] = useState([]);
@@ -16,7 +16,7 @@ export const useFetchGifs = ( category ) => {
     useEffect(  () => {
         getImages();
     }, [])
-
+    // salida
     return {
         images,
         isLoading
